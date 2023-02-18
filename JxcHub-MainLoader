@@ -17,7 +17,7 @@ local Tab2 = Window:MakeTab({
 
 Tab:AddParagraph("Credits","hello ! thank for using this script, enjoy! -Script Owner JxcExploitss")
 Tab:AddParagraph("Update Coming Soon.","Subscribe To JxcExploitss For Update!")
-Tab2:AddParagraph("Script Supported","Plane Crash Physics | Ship Crash Physics  | Eastern War | Destruction Simulator")
+Tab2:AddParagraph("Script Supported","Plane Crash Physics | Ship Crash Physics  | Eastern War | Destruction Simulator | D-Day")
 
 Tab2:AddButton({
 	Name = "Load Script",
