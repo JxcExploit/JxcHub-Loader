@@ -40,6 +40,8 @@ Tab2:AddButton({
          if game.PlaceId==2248408710
 	            then loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/DestructionSim"))()
 	            end
+         if game.PlaceId==901793731
+                    then loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/D-Day/main/Open-Resources')))()
 	         end
 })
 
