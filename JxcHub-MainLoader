@@ -42,7 +42,8 @@ Tab2:AddButton({
 	            end
          if game.PlaceId==901793731
                     then loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/D-Day/main/Open-Resources')))()
-	         end
+	            end
+                end
 })
 
 local Tab3 = Window:MakeTab({
