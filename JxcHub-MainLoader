@@ -22,18 +22,15 @@ Tab2:AddParagraph("Script Supported","Plane Crash Physics | Ship Crash Physics  
 Tab2:AddButton({
 	Name = "Load Script",
 	Callback = function()
-	    if game.PlaceId==9601565001
+	 if game.PlaceId==9601565001
 	            then loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/CarCrashSystemKavo"))()
 	            end
-	            
-	    if game.PlaceId==9585800888
+	 if game.PlaceId==9585800888
 	            then loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/PlaneCrashPhysics"))()
 	            end
-		    
-	    if game.PlaceId==12137499703
+	 if game.PlaceId==12496573043
 	            then loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/ShipCrash%20Physics"))()
 	            end
-         
          if game.PlaceId==8225971185
 	            then loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/The%20Eastern%20War"))()
 	            end
