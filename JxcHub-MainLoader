@@ -44,7 +44,7 @@ Tab2:AddButton({
 })
 
 local Tab3 = Window:MakeTab({
-	Name = "Universal",
+	Name = "Universal/ExploitAssist",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -53,6 +53,12 @@ Tab3:AddButton({
 	Name = "Universal Hubs",
 	Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/universalhubsprotected')))()
+        end
+})
+Tab3:AddButton({
+	Name = "Exploit Assistant V2",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/Exploit/main/assistant-v1')))()
         end
 })
 OrionLib:Init()
