@@ -40,6 +40,9 @@ Tab2:AddButton({
          if game.PlaceId==901793731
                     then loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/D-Day/main/Open-Resources')))()
 	            end
+         if game.PlaceId==12182821293
+                    then loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/planecrashphysics2/main/spawn%20any%20plane')))()
+	            end
                 end
 })
 
