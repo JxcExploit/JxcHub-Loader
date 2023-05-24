@@ -13,6 +13,13 @@ local Tab2 = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+})
+Tab2:AddButton({
+	Name = "Copy Discord Server",
+	Callback = function()
+        setclipboard("https://discord.gg/Yjn8FxXBT3")
+        end
+})
 
 
 Tab:AddParagraph("Credits","hello ! thank for using this script, enjoy! -Script Owner JxcExploitss")
@@ -63,5 +70,11 @@ Tab3:AddButton({
 	Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/Exploit/main/assistant-v1')))()
         end
+})
+OrionLib:MakeNotification({
+	Name = "Subscribe",
+	Content = "Subscribe to JxcExploitss If you have time!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
 })
 OrionLib:Init()
