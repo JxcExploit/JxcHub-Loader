@@ -19,6 +19,7 @@ Tab2:AddButton({
 	Callback = function()
         setclipboard("https://discord.gg/Yjn8FxXBT3")
         end
+    end
 })
 
 
