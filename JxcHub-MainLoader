@@ -13,14 +13,6 @@ local Tab2 = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-})
-Tab2:AddButton({
-	Name = "Copy Discord Server",
-	Callback = function()
-        setclipboard("https://discord.gg/Yjn8FxXBT3")
-        end
-    end
-})
 
 
 Tab:AddParagraph("Credits","hello ! thank for using this script, enjoy! -Script Owner JxcExploitss")
@@ -51,15 +43,16 @@ Tab2:AddButton({
          if game.PlaceId==12182821293
                     then loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/planecrashphysics2/main/spawn%20any%20plane')))()
 	            end
+          if game.PlaceId==402122991
+                    then loadstring(game:HttpGet(('https://raw.githubusercontent.com/JxcExploit/JxcHub-Loader/main/redwoodprison1')))()
+	            end
                 end
 })
-
 local Tab3 = Window:MakeTab({
 	Name = "Universal/ExploitAssist",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
 Tab3:AddButton({
 	Name = "Universal Hubs",
 	Callback = function()
